@@ -1,0 +1,74 @@
+what is devops(automation and optimization-->increase efficiency)
+why devops
+how devops
+
+dev + ops = developers + operations--> plan code design         testing deployment maintaintance delievery/Release monitoring security
+
+Waterfall Model(build once, 
+Requirement analysis-->properties-->target audience/scale
+Planning -->roles->user journeys-->selection of technology
+Designing/Code
+Build--->code build-->static check    (open JDK use karenge in java to build tha code)
+Testing
+Deployment
+Feedback
+
+Agile Model(build small, ship small, deliever small)
+
+Tools in planning phase-->Documentation-->Google docs/confluence,JIRA-- to define roles
+Tools in designing-->Developers tool Git/mercurial Githunb/ Gitlab/ bitbucket
+Build--> Docker Terraform,postman,Bompilers
+Docker used for image formation 
+Testing tools-->Selenium, Junit, PyTest, JIRA
+Release Manangement-->Jenkins,CI/CD,AgroCD aur flux
+Deployment-->Docker kubernetes EKS, ECS
+Monitoring-->metric collection, Loggin, Tracing
+               |
+             promethus
+             open telemetry----> ek saath store and fetch kar sakte hain
+  Elasticsearch
+Cloud Watch---Login software 
+
+
+
+
+
+
+
+flux and rgocd
+tracing  Jagger open telemetry
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ticketing software
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

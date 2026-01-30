@@ -1,0 +1,104 @@
+pwd (current working directory)
+ls (folder ke ander ki files ya folders show karta hai)
+ls -l (details ke saath)
+ls -a (hidden files bhi show karta hai)
+cd (folder change karne ke liye)
+cd .. (ek level back)
+cd ~ (home directory)
+mkdir (naya folder banana ke liye)
+rmdir (empty folder delete karne ke liye)
+touch filename (nayi file banane ke liye)
+cat filename (file ka content dekhne ke liye)
+less filename (badi file aram se padhne ke liye)
+cp (file copy karne ke liye)
+mv (file move / rename karne ke liye)
+rm filename (file delete karne ke liye)
+rm -r(folder delete)
+head filename(file ki first 10 lines dekhne ke liye)
+tail filename(file ki last 10 lines dekhne ke liye)
+wc filename(word / line count karne ke liye)
+whoami(current user dekhne ke liye)
+uname -a (os ki details dekhne ke liye)
+clear (terminal saaf karne ke liye)
+man (kisi bhi command ka manual dekhne ke liye)
+man ls(detailed explanation of commands with example syntax)
+ls--help(short and quick summary of commands)
+ps (kaun sa process chal raha hai)
+top (live system monitoring)
+kill (process band karne ke liye)
+df (disk space check)
+du (folder kitni space le raha hai)
+free (RAM usage)
+grep (file ke ander word search karne ke liye use hoti hai)
+find (folder/ file ko search karne ke liyee use hoti hai)
+tar (file zip / unzip k liye)
+sudo (admin powers ke liye)
+su (switch user)
+ip a (ip address dekhne ke liye)
+ping(network check karne ke liye) // ctrl + c stop karne ke liye)
+history(pahle chalaye commands dekhne ke liye)
+date (date ke liye)
+uptime(system kitni der se on hai)
+find --help (commands ke short options + usage dikhata hai)
+-perm (find ke saath use hota hai)
+files ko permissions ke base pe search karte hai)
+man find > logs (man find ka output file me store ho jata hai terminal m show nhi hota file logs ban jaati hai)
+ln a b (hard link banata hai  b bhi a ki Tarah same data point karta hai a delete bhi kar do phir bhi b se data milega)
+ln -s a b (soft link )
+ls -li(file ka inode number dikhata hai)
+find . (current directory ke ander sab files/folders recursively)
+head -n 20 filename(file ki top 20 lines show karta hai)
+tail -n 50 filename(file ki bottom 50 lines show karta hai)
+more logs(file ko page by page dikhata hai neeche hi ja sakte ho upar nhi)
+better option is less
+/EXAMPLES (man ke ander search karne ke liye Jahan examples likha milega wahan jump karega)
+ls -s a b (file ka size blocks me dikhata hai) // hard link ke case me size same dikhega
+cat /etc/passwd (system ke saare user list karta hai)
+sudo adduser muskan( new user create karta hai) // password + home directory bhi banata hai preferred in ubuntu
+id username (user ka UID GID Groups show karta hai)
+id root (root ka UID = 0 (superuser))
+sudo groupadd frontend (group banane ka command)
+sudo usermod -aG frontend username (usr ko frontend group ka member bana diya)
+ls -i (file ka inode number dikhata hai)
+/home (normal user ki home directory)
+sh (shell start karta hai command interpreter)
+echo $SHELL (check current shell)
+echo $PATH
+ls /bin
+ls /sbin(system administrative binaries) // reboot fsck shutdown
+ls /usr/bin (user level commands) // git python gcc java
+ls /usr/sbin (advanced admin tools)
+exit (shell se bahar nikalna)
+stat filename (file ki complete details)
+file a (batata hai file kis type ki hai) // text, binary, script, images
+tree directory ko tree structure me dikhata hai)
+grep -r "error" /var/filename (file ke andar recursively search)
+sort names.txt (lines ko sort kar deta hai)
+uniq filename (duplicates lines hatata hai) // use with sort
+cut -d: -f1 /etc/passwd (column nikalne ke liye)
+umask(default permissions ke liye)
+who (kaun kaun logged in hai)
+groups foldername (user kis kis group me hai)
+passwd foldername(password change)
+killall firefox(name se process kill)
+mount (mounted filesystems)
+curl google.com (API/URL test)
+env (environmental variables)
+which (command ki binary kahan hai)
+
+
+
+
+
+
+ 
+
+
+
+cat /etc/passwd
+aisa kyon hota haii we have so many users but do not have login access
+sudo adduser muskan--- for ubuntu
+id john
+id root
+group frontend
+usermod -aG frontend john iska kya kaam hota hai
