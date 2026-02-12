@@ -28,11 +28,18 @@ Monitoring-->metric collection, Loggin, Tracing
              open telemetry----> ek saath store and fetch kar sakte hain
   Elasticsearch
 Cloud Watch---Login software 
+What is DNS
+what is recursive resolver
+what are multiple types of DNS record 
+What is authoritative name server
 
 
-
-
-
+-----------------------------
+#PACKAGE MANAGEMENT SYSTEM
+sudo rm /etc/yum.repos.d/*
+sudo nano /etc/yum.repos.d/alma.repo
+sudo dnf update
+nginx
 
 
 flux and rgocd

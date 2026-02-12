@@ -1,0 +1,16 @@
+Docker & Docker Compose (YAML) Practice 🚀
+
+This repository contains hands-on practice with Docker and Docker Compose using YAML files.
+It includes containerization concepts, service definitions, networking, volumes, and multi-container application setup.
+
+Tech Stack:
+
+Docker
+
+Docker Compose
+
+YAML
+
+Linux
+
+📌 Purpose: Learning DevOps fundamentals with practical implementation.

@@ -85,6 +85,69 @@ mount (mounted filesystems)
 curl google.com (API/URL test)
 env (environmental variables)
 which (command ki binary kahan hai)
+/dev (static info store karta hai)
+ls /sys/block
+/sys
+efi
+/usr
+/run
+ls /boot
+ls /dev
+/dev
+/var
+ls l /
+/home/user
+ls /tmp
+ls /sbin
+/sys/
+ls /tmp
+ls /proc
+ps aux
+sleep
+ps aux | grep sleep   // alternative pgrep sleep
+kill PID
+htop
+diff btw top and htop
+processes ki multiple states kaun kaun si hoti hain
+ ssh cloud_user@13.204.80.30
+sudo systemctl status NetworkManager
+sudo systemctl status sshd
+password   manuu123
+sudo dnf install firewalld
+ sudo systemctl status firewalld
+sudo systemctl status start firewalld
+sudo systemctl start firewalld
+sudo systemctl status firewalld
+sudo kill -9 14990
+ pgrep firewalld
+journalctl -u firewalld
+sudo cat /var/log/messages
+journalctl ka manual padhna hai
+lsblk
+df -h
+[cloud_user@04d50ce5871c ~]$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        4.0M     0  4.0M   0% /dev
+tmpfs           1.8G     0  1.8G   0% /dev/shm
+tmpfs           722M   17M  705M   3% /run
+/dev/nvme0n1p4  9.4G  3.0G  6.4G  32% /
+/dev/nvme0n1p3  495M  456M   39M  93% /boot
+/dev/nvme0n1p2  200M   20K  200M   1% /boot/efi
+tmpfs           361M     0  361M   0% /run/user/1001   // kaun sa mount file hai kaun sa partition hai
+ nmtui
+free -h
+page fault kya hote hai detail me
+swap padhke aana
+rhce
+rhcsa
+ssh-keygen -n muskan  (isse 2 key generate ki public and private)
+ssh -copy-id -i muskan.pub cloud_user@IP (To copy our public key in another remote Ip server)
+
+and To aaccess server 
+----After this we can easily access the Remote Server
+By This Command
+ssh -i ./muskan cloud_user@IP 
+
 
 
 
