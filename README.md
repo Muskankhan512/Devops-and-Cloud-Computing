@@ -1,4 +1,40 @@
-Different HTML on Port 80 and Port 8080
+Today I learned the fundamentals of Kubernetes and the main problems it solves in real-world infrastructure.
+🔹 Why Kubernetes is needed (Problems it solves)
+Container lifecycle management
+Network management between containers
+Change & configuration management
+🔹 Kubernetes Architecture
+Kubernetes mainly works with two major parts:
+1️⃣ Control Plane – manages the cluster
+2️⃣ Data Plane – where containers actually run
+🔹 Important Control Plane Components
+kube-scheduler
+→ Schedules pods on available nodes
+Controller Manager
+→ Handles different controllers
+→ Example: restart controller (state management)
+Cloud Controller Manager
+→ Handles network and cloud-specific communication
+etcd
+→ Distributed key-value store
+→ Stores all cluster state and configuration data
+🔹 Controllers & State Management
+Controllers continuously watch the current state and make sure the desired state is always maintained.
+Example: restarting failed containers automatically.
+🔹 Leader Election (Leader Detection Algorithm)
+Leader election is used so that only one active controller instance manages a task at a time.
+This avoids conflicts in distributed systems and is configured at the control-plane component level.
+🔹 Linux Namespace (Related Concept)
+Linux namespaces are used for isolation of:
+processes
+network
+filesystem
+users
+Kubernetes uses Linux namespaces internally for container isolation.
+🔹 Monitoring & Observability Tools (Explored)
+Datadog
+Dynatrace
+Sumo LogicDifferent HTML on Port 80 and Port 8080
 
 This project demonstrates how a single machine can serve different HTML pages on different ports.
 
