@@ -1,12 +1,7 @@
 Today I learned the fundamentals of Kubernetes and the main problems it solves in real-world infrastructure.
 🔹 Why Kubernetes is needed (Problems it solves)
 Container lifecycle management
-Network management between containers
-Change & configuration management
-🔹 Kubernetes Architecture
-Kubernetes mainly works with two major parts:
-1️⃣ Control Plane – manages the cluster
-2️⃣ Data Plane – where containers actually run
+
 🔹 Important Control Plane Components
 kube-scheduler
 → Schedules pods on available nodes
@@ -198,4 +193,10 @@ watch -n 2 df -h
 docker ps  
 docker exec -it container bash  
 docker logs container  Today I learned the fundamentals of Kubernetes and the main problems it solves in real-world infrastructure. 🔹 Why Kubernetes is needed (Problems it solves) Container lifecycle management Network management between containers Change & configuration management
+Network management between containers
+Change & configuration management
+🔹 Kubernetes Architecture
+Kubernetes mainly works with two major parts:
+1️⃣ Control Plane – manages the cluster
+2️⃣ Data Plane – where containers actually run
 
