@@ -196,7 +196,5 @@ docker logs container  Today I learned the fundamentals of Kubernetes and the ma
 Network management between containers
 Change & configuration management
 🔹 Kubernetes Architecture
-Kubernetes mainly works with two major parts:
-1️⃣ Control Plane – manages the cluster
-2️⃣ Data Plane – where containers actually runControllers & State Management Controllers continuously watch the current state and make sure the desired state is always maintained. Example: restarting failed containers automatically
+Kubernetes mainly works with two major parts: 
 
