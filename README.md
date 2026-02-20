@@ -197,4 +197,4 @@ Network management between containers
 Change & configuration management
 🔹 Kubernetes Architecture
 Kubernetes mainly works with two major parts: Why Kubernetes is needed (Problems it solves) Container lifecycle management Network management between containers Change & configuration management Network management between containers Change & configuration management 🔹 Kubernetes Architecture Kubernetes mainly works with two major parts
-
+Kubernetes Architecture Kubernetes mainly works with two major parts: Why Kubernetes is needed (Problems it solves) Container lifecycle management Network management between containers Change & configuration management Network management between containers Change & configuration management 🔹 Kubernetes Architecture Kubernetes mainly works with two major parts
