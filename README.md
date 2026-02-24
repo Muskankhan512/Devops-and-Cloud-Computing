@@ -195,3 +195,5 @@ docker exec -it container bash
 docker logs container  Today I learned the fundamentals of Kubernetes and the main problems it solves in real-world infrastructure. 🔹 Why Kubernetes is needed (Problems it solves) Container lifecycle management Network management between containers Change & configuration management
 Network management between containers
 Change & configuration management
+Handles network and cloud-specific communication
+etcd
