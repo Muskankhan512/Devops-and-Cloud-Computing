@@ -1,4 +1,4 @@
-Today I learned the fundamentals of Kubernetes and the main problems it solves in real-world infrastructure.
+oToday I learned the fundamentals of Kubernetes and the main problems it solves in real-world infrastructure.
 🔹 Why Kubernetes is needed (Problems it solves)
 Container lifecycle management
 
@@ -6,13 +6,14 @@ Container lifecycle management
 kube-scheduler
 → Schedules pods on available nodes
 Controller Manager
-→ Handles different controllers
-→ Example: restart controller (state management)
-Cloud Controller Manager
+→ 
 → Handles network and cloud-specific communication
 etcd
 → Distributed key-value store
 → Stores all cluster state and configuration data
+Handles different controllers
+→ Example: restart controller (state management)
+Cloud Controller Manager
 🔹 Controllers & State Management
 Controllers continuously watch the current state and make sure the desired state is always maintained.
 Example: restarting failed containers automatically.
