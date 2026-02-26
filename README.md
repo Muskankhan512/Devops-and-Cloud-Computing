@@ -7,11 +7,7 @@ kube-scheduler
 → Schedules pods on available nodes
 Controller Manager
 → 
-→ Handles network and cloud-specific communication
-etcd
-→ Distributed key-value store
-→ Stores all cluster state and configuration data
-Handles different controllers
+
 → Example: restart controller (state management)
 Cloud Controller Manager
 🔹 Controllers & State Management
@@ -195,6 +191,6 @@ docker ps
 docker exec -it container bash  
 docker logs container  Today I learned the fundamentals of Kubernetes and the main problems it solves in real-world infrastructure. 🔹 Why Kubernetes is needed (Problems it solves) Container lifecycle management Network management between containers Change & configuration management
 Network management between containers
-Change & configuration management
-Handles network and cloud-specific communication
+Change & configuration managemenandles network and cloud-specific communication
 etcd
+
