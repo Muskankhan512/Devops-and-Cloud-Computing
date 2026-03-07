@@ -22,11 +22,12 @@ processes
 network
 filesystem
 users
+
+Dynatrace
+Sumo LogicDifferent HTML on Port 80 and Port 8080
 Kubernetes uses Linux namespaces internally for container isolation.
 🔹 Monitoring & Observability Tools (Explored)
 Datadog
-Dynatrace
-Sumo LogicDifferent HTML on Port 80 and Port 8080
 
 This project demonstrates how a single machine can serve different HTML pages on different ports.
 
